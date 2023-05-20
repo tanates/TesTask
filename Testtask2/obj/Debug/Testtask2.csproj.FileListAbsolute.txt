@@ -1,0 +1,10 @@
+C:\Users\timur\source\repos\Testtask2\Testtask2\bin\Debug\Testtask2.exe.config
+C:\Users\timur\source\repos\Testtask2\Testtask2\bin\Debug\Testtask2.exe
+C:\Users\timur\source\repos\Testtask2\Testtask2\bin\Debug\Testtask2.pdb
+C:\Users\timur\source\repos\Testtask2\Testtask2\obj\Debug\Testtask2.csproj.AssemblyReference.cache
+C:\Users\timur\source\repos\Testtask2\Testtask2\obj\Debug\Testtask2.Form1.resources
+C:\Users\timur\source\repos\Testtask2\Testtask2\obj\Debug\Testtask2.Properties.Resources.resources
+C:\Users\timur\source\repos\Testtask2\Testtask2\obj\Debug\Testtask2.csproj.GenerateResource.cache
+C:\Users\timur\source\repos\Testtask2\Testtask2\obj\Debug\Testtask2.csproj.CoreCompileInputs.cache
+C:\Users\timur\source\repos\Testtask2\Testtask2\obj\Debug\Testtask2.exe
+C:\Users\timur\source\repos\Testtask2\Testtask2\obj\Debug\Testtask2.pdb

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TestTaskDataSet3" targetNamespace="http://tempuri.org/TestTaskDataSet3.xsd" xmlns:mstns="http://tempuri.org/TestTaskDataSet3.xsd" xmlns="http://tempuri.org/TestTaskDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TestTaskConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TestTaskConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Testtask2.Properties.Settings.GlobalReference.Default.TestTaskConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="aprilTableAdapter" GeneratorDataComponentClassName="aprilTableAdapter" Name="april" UserDataComponentName="aprilTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TestTaskConnectionString (Settings)" DbObjectName="TestTask.dbo.april" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FIO, Position, one, two, thre, four, five FROM dbo.april</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FIO" DataSetColumn="FIO" />
+              <Mapping SourceColumn="Position" DataSetColumn="Position" />
+              <Mapping SourceColumn="one" DataSetColumn="one" />
+              <Mapping SourceColumn="two" DataSetColumn="two" />
+              <Mapping SourceColumn="thre" DataSetColumn="thre" />
+              <Mapping SourceColumn="four" DataSetColumn="four" />
+              <Mapping SourceColumn="five" DataSetColumn="five" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TestTaskDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TestTaskDataSet3" msprop:Generator_UserDSName="TestTaskDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="april" msprop:Generator_TableClassName="aprilDataTable" msprop:Generator_TableVarName="tableapril" msprop:Generator_TablePropName="april" msprop:Generator_RowDeletingName="aprilRowDeleting" msprop:Generator_RowChangingName="aprilRowChanging" msprop:Generator_RowEvHandlerName="aprilRowChangeEventHandler" msprop:Generator_RowDeletedName="aprilRowDeleted" msprop:Generator_UserTableName="april" msprop:Generator_RowChangedName="aprilRowChanged" msprop:Generator_RowEvArgName="aprilRowChangeEvent" msprop:Generator_RowClassName="aprilRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FIO" msprop:Generator_ColumnVarNameInTable="columnFIO" msprop:Generator_ColumnPropNameInRow="FIO" msprop:Generator_ColumnPropNameInTable="FIOColumn" msprop:Generator_UserColumnName="FIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Position" msprop:Generator_ColumnVarNameInTable="columnPosition" msprop:Generator_ColumnPropNameInRow="Position" msprop:Generator_ColumnPropNameInTable="PositionColumn" msprop:Generator_UserColumnName="Position" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="one" msprop:Generator_ColumnVarNameInTable="columnone" msprop:Generator_ColumnPropNameInRow="one" msprop:Generator_ColumnPropNameInTable="oneColumn" msprop:Generator_UserColumnName="one" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="two" msprop:Generator_ColumnVarNameInTable="columntwo" msprop:Generator_ColumnPropNameInRow="two" msprop:Generator_ColumnPropNameInTable="twoColumn" msprop:Generator_UserColumnName="two" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="thre" msprop:Generator_ColumnVarNameInTable="columnthre" msprop:Generator_ColumnPropNameInRow="thre" msprop:Generator_ColumnPropNameInTable="threColumn" msprop:Generator_UserColumnName="thre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="four" msprop:Generator_ColumnVarNameInTable="columnfour" msprop:Generator_ColumnPropNameInRow="four" msprop:Generator_ColumnPropNameInTable="fourColumn" msprop:Generator_UserColumnName="four" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="five" msprop:Generator_ColumnVarNameInTable="columnfive" msprop:Generator_ColumnPropNameInRow="five" msprop:Generator_ColumnPropNameInTable="fiveColumn" msprop:Generator_UserColumnName="five" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
